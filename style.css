@@ -1,0 +1,46 @@
+body, main{
+    margin: 0px;
+    padding: 0px;
+    background: rgb(138, 243, 143);
+}
+.container  {
+    width: 75%;
+    padding: 50px;
+    display: flex;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    background-image: url(fondo-verde-de-la-textura-de-la-condensación-del-agua-42621035.jpg);
+    margin: 0 auto;
+    margin-top:40px;
+}
+.container .row{
+    width: 100%;
+}
+.container h2{
+    text-align: center;
+    color: rgb(6, 41, 6);
+    font-family: 'Times New Roman', Times, serif;
+}
+.container h4{
+    text-align: center;
+    color:rgb(6, 41, 6) ;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container input{
+    width: 35%;
+    margin-left: 15px;
+    border-radius: 15px;
+    border: none;
+    padding:10px;
+}
+.container button{
+    background: rgb(46, 131, 46);
+    width: 18%;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+}
+.container button:hover{
+background:white;
+color: rgb(46, 131, 46);
